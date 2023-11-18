@@ -1,0 +1,24 @@
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-list li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.project-list li::before {
+  content: none; /* Bullet character */
+  color: #fff; /* Change the color as per your design */
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+}
+
+/* Style for Font Awesome icons */
+.project-list li i {
+  margin-right: 10px;
+  color: #fff; /* Change the color as per your design */
+}
